@@ -1,0 +1,74 @@
+body {
+  padding-top: 300px;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+#Red {
+  background-color: red;
+  border: 0px;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+}
+#Green {
+  background-color: green;
+  border: 0px;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+}
+#Blue {
+  background-color: blue;
+  border: 0px;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+}
+#colorPicker {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+#colorPicker button {
+  transition: transform 0.2s ease-in-out;
+  width: 40px;
+  height: 40px;
+  border-radius: 200px;
+}
+#colorPicker button:hover {
+  transform: scale(1.2);
+}
+#color-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: background-color 0.2s ease-in-out;
+}
+#Reset {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 200px;
+  transition: all 0.2s ease-in-out;
+  font-family: Helvetica, sans-serif;
+}
+#Reset:hover {
+  transform: scale(1.05);
+  background-color: rgba(0, 0, 0, 0.116);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
